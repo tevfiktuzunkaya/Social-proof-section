@@ -1,0 +1,148 @@
+:root {
+    font-family: 'League Spartan', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  
+  
+}
+
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+
+
+
+
+.soft-pink {
+    color: hsl(333, 80%, 67%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem;
+  gap: 4rem;
+  
+  
+  
+}
+
+.top-left div {
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 4rem;
+    line-height: normal;
+    font-weight: 700;
+}
+
+.top-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.top {
+  display: flex;
+  gap: 13rem;
+  line-height: 1.5rem;
+}
+
+.top-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 450px;
+  font-weight: 700;
+  
+}
+
+.top-right > .first {
+  background-color: hsl(303, 10%, 92%);
+  align-self: start;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  gap: 2rem;
+}
+.top-right > .second {
+  background-color: hsl(303, 10%, 92%);
+  align-self: center;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  gap: 2rem;
+}
+.top-right > .third {
+  align-self: flex-end;
+  background-color: hsl(303, 10%, 92%);
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  gap: 2rem;
+
+}
+
+img {
+    border-radius: 50%;
+    
+}
+
+.bottom {
+  display: flex;
+  gap: 2rem;
+  height: 350px;
+  
+  
+}
+
+.bottom > .first-box {
+  align-self: flex-start;
+  width: 400px;
+}
+.bottom > .second-box {
+  align-self: center;
+  width: 400px;
+}
+.bottom > .third-box {
+  align-self: flex-end;
+  width: 400px;
+}
+
+.first-box,
+.second-box,
+.third-box {
+  background-color: hsl(300, 43%, 22%);
+  padding: 3rem;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  line-height: 1.40rem;
+  
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+  line-height: 1.5rem;
+}
