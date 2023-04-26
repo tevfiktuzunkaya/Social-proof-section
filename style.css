@@ -112,6 +112,7 @@ img {
   height: 350px;
   
   
+  
 }
 
 .bottom > .first-box {
@@ -132,12 +133,13 @@ img {
 .third-box {
   background-color: hsl(300, 43%, 22%);
   padding: 3rem;
-  color: white;
+  color: hsl(300, 24%, 96%);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  line-height: 1.40rem;
+  line-height: 1.4rem;
+  
   
 }
 
@@ -146,3 +148,4 @@ img {
   gap: 1rem;
   line-height: 1.5rem;
 }
+
